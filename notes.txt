@@ -1,0 +1,12 @@
+Fixtures - env to run tests
+contains YAML
+
+fictures() laods data corresponding to the given model name into the corresponding database before each test method
+using :product will call product.yml to be used
+
+this empties the table and populates with row
+
+dev.sql - developement database
+test.sqp - test
+production.sql - production
+
