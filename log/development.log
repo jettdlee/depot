@@ -170,3 +170,32 @@ Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
 LoadError (Unable to autoload constant Product, expected /home/jlee/Documents/depot/app/models/product.rb to define it):
   
 app/controllers/products_controller.rb:7:in `index'
+Started GET "/products" for ::1 at 2018-11-22 12:06:00 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (compile error):
+  
+app/controllers/products_controller.rb:7:in `index'
+Started GET "/products" for ::1 at 2018-11-22 12:06:02 +0000
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (Unable to autoload constant Product, expected /home/jlee/Documents/depot_ror/app/models/product.rb to define it):
+  
+app/controllers/products_controller.rb:7:in `index'
+Started GET "/products" for ::1 at 2018-11-22 12:06:02 +0000
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (Unable to autoload constant Product, expected /home/jlee/Documents/depot_ror/app/models/product.rb to define it):
+  
+app/controllers/products_controller.rb:7:in `index'
