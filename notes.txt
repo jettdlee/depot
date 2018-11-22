@@ -12,4 +12,10 @@ production.sql - production
 
 concern - tool provided by ActiveSupport for including modules in classes creating mixins.
 
-controller, include - links to model module to use functions
+controller, include - links to concern module to use functions
+
+find_by - streamline where(). returns either line item or nil instead of array
+
+rescue_from - intercepts exception
+logger.error - records the error
+redirect_to - prevents user from retriggering error
