@@ -10,3 +10,6 @@ dev.sql - developement database
 test.sqp - test
 production.sql - production
 
+concern - tool provided by ActiveSupport for including modules in classes creating mixins.
+
+controller, include - links to model module to use functions
